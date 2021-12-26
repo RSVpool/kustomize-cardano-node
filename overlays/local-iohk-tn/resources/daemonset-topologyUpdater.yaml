@@ -25,9 +25,9 @@ spec:
         - name: BASE_URL
           value: "https://api.clio.one/htopology/v1"
         - name: CNODE_PORT
-          value: "31337"
+          value: "31000"
         - name: CNODE_HOSTNAME
-          value: "relay.iohk-tn.cardano.none.guru"
+          value: "dandelion.reservoir.network"
         - name: CNODE_VALENCY
           value: "1"
         - name: TESTNET_MAGIC
