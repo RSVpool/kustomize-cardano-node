@@ -7,6 +7,21 @@
           "addr": "relays-new.cardano-testnet.iohkdev.io",
           "port": 3001,
           "valency": 2
+        },
+        {
+          "addr": "relay.testnet.bladepool.com",
+          "port": 4001,
+          "valency": 1
+        },
+        {
+          "addr": "firewall.adamantium.online",
+          "port": 3000,
+          "valency": 1
+        },
+        {
+          "addr": "relay-test.adaseal.eu",
+          "port": 6000,
+          "valency": 1
         }
       ]
     }
