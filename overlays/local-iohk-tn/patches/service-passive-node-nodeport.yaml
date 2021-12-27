@@ -3,6 +3,6 @@
   value:
     - name: p2p
       port: 31337
-      nodePort: 31337
+      nodePort: 31000
       targetPort: 31337
       protocol: TCP
