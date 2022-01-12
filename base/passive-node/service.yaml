@@ -12,7 +12,7 @@ spec:
   ports:
   - name: p2p
     port: 6000
-    nodePort: 31000
+    nodePort: 6000
     targetPort: 6000
     protocol: TCP
   selector:
