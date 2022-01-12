@@ -27,11 +27,11 @@ spec:
         - name: BASE_URL
           value: "https://api.clio.one/htopology/v1"
         - name: CNODE_PORT
-          value: "30042"
+          value: "3001"
         - name: CNODE_HOSTNAME
-          value: "relay.mainnet.cardano.none.guru"
+          value: "re1.reservoir.network"
         - name: CNODE_VALENCY
-          value: "2"
+          value: "1"
         - name: TESTNET_MAGIC
           value: "764824073"
         image: rcmorano/ubuntu-crond:latest
