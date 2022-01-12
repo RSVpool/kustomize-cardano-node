@@ -5,6 +5,7 @@
       name: passive-node-files
     spec:
       accessModes: [ "ReadWriteOnce" ]
+      storageClassName: csi-s3
       resources:
         requests:
           storage: 100Mi
@@ -12,6 +13,7 @@
       name: passive-node-priv
     spec:
       accessModes: [ "ReadWriteOnce" ]
+      storageClassName: csi-s3
       resources:
         requests:
           storage: 100Mi
