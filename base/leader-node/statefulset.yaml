@@ -61,7 +61,7 @@ spec:
         - mountPath: /configmap
           name: leader-node-configmap
       containers:
-      - command: ["bash", "-c", "ls -hal /opt/cardano/cnode/priv/pool/default; export HOME=/nonexistent; source $HOME/.baids/baids && ${NETWORK}-cnode-run-as-${CNODE_ROLE}"]
+      - command: ["bash", "-c", "ls -hal /opt/cardano/cnode/priv/pool/default; export HOME=/nonexistent; source $HOME/.baids/baids && ${NETWORK}-cnode-run-as-${CNODE_ROLE} +RTS -N --disable-delayed-os-memory-return -I0.3 -Iw600 -A32m -F1.5 -H3G -T"]
         env:
         - name: CNODE_PORT
           value: "6000"
